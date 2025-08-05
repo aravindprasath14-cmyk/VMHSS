@@ -1,0 +1,103 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(120deg, #1e3c72, #f3904f); /* Blue to orange */
+  padding: 30px;
+  margin: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  background: #ffffffee;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(6px);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  background: linear-gradient(to right, #007BFF, #FFA500);
+  color: white;
+  padding: 14px;
+  border-radius: 10px;
+  font-size: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+label {
+  font-weight: bold;
+  color: #333;
+}
+
+input {
+  padding: 10px;
+  font-size: 15px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fff;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  grid-column: span 2;
+  padding: 12px;
+  font-size: 16px;
+  background: linear-gradient(to right, #007bff, #ffa500); /* Blue to orange */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(to right, #0056b3, #ff8000);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  border: 1px solid #e0e0e0;
+  padding: 12px;
+  text-align: center;
+  font-size: 14px;
+}
+
+th {
+  background: linear-gradient(to right, #007BFF, #FFA500); /* Blue to orange */
+  color: white;
+  font-weight: bold;
+}
+
+td {
+  background-color: #fdfdfd;
+}
+
+td strong {
+  color: #28a745; /* green for net salary */
+  font-weight: bold;
+}
